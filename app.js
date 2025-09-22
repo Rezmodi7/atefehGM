@@ -90,7 +90,7 @@ document.getElementById("connect").onclick = async () => {
     signer = provider.getSigner();
 
     await provider.send("wallet_addEthereumChain", [{
-      chainId: "0x20E8", // 8408 in hex
+      chainId: "0x20d8", // 8408 in hex
       chainName: "ZenChain Testnet",
       nativeCurrency: { name: "ZenChain Token", symbol: "ZTC", decimals: 18 },
       rpcUrls: ["https://zenchain-testnet.api.onfinality.io/public"],
