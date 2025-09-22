@@ -94,7 +94,7 @@ document.getElementById("connect").onclick = async () => {
       chainName: "ZenChain Testnet",
       nativeCurrency: { name: "ZenChain Token", symbol: "ZTC", decimals: 18 },
       rpcUrls: ["https://zenchain-testnet.api.onfinality.io/public"],
-      blockExplorerUrls: []
+      blockExplorerUrls: ["https://zentrace.io/"]
     }]);
 
     contract = new ethers.Contract(contractAddress, abi, signer);
