@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>GM on ZenChain</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>GM DApp - ZenChain Testnet</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.min.js"></script>
+  <script defer src="app.js"></script>
 </head>
 <body>
-  <h1>🌞 GM on ZenChain</h1>
-  <button id="connect">Connect Wallet</button>
-  <button id="sendGM">Send GM</button>
-  <p id="cooldown"></p>
-  <script src="https://cdn.jsdelivr.net/npm/ethers/dist/ethers.min.js"></script>
-  <script src="app.js"></script>
+  <div class="container">
+    <h1>GM DApp 🌞</h1>
+    <p>Send your daily GM on <strong>ZenChain Testnet</strong> 🚀</p>
+
+    <button id="connect">🔗 Connect Wallet</button>
+    <button id="sendGM">✨ Send GM</button>
+
+    <div id="cooldown">⏳ Please connect your wallet</div>
+  </div>
 </body>
 </html>
