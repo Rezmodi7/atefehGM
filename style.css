@@ -1,10 +1,14 @@
 body {
   font-family: Arial, sans-serif;
-  background: #f0f2f5;
+  /* اضافه کردن بک‌گراند */
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover; /* مناسب برای دسکتاپ و موبایل */
+  
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
 }
 
 .container {
